@@ -123,7 +123,7 @@ export default function MiniDrawer () {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar position="fixed" open={open}>
+      <AppBar position="fixed" open={open} sx={{ background: '#ff7043' }}>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -160,7 +160,7 @@ export default function MiniDrawer () {
                   justifyContent: open ? 'initial' : 'center',
                   px: 2.5,
                   mt: 2.5,
-                  color: "#1E90FF",
+                  color: "#ff7043",
                 
                   
                 }}
@@ -170,7 +170,7 @@ export default function MiniDrawer () {
                     minWidth: 0,
                     mr: open ? 3 : 'auto',
                     justifyContent: 'center',
-                    color: "#1E90FF",
+                    color: "#ff7043",
                   }}
                 >
                   {item.icon}
