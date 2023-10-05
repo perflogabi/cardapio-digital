@@ -19,11 +19,11 @@ const bull = (
 const card = (
   <React.Fragment>
     <CardContent>
-      <Typography variant="h6" component="div" sx={{ display: 'flex', alignItems:'center', gap:'0.5rem', color: 'orange' }}>
+      <Typography variant="h6" component="div" sx={{ display: 'flex', alignItems:'center', gap:'0.5rem', color: 'orange', fontSize: '18px' }}>
         <CheckCircleOutlineIcon  /> Prontos
       </Typography>
      
-      <Typography variant="body2">
+      <Typography variant="body2" sx={{fontSize:'14px'}}>
         30 pedidos estão prontos
         <br />
         

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Relatórios = () => {
+export const Relatorios = () => {
   return (
     <div>Relatórios</div>
   )

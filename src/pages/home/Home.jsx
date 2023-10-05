@@ -13,22 +13,22 @@ export const Home = () => {
     <div style={{ margin: '0 10px 0 7rem'}}>
         <Sidebar />
             
-        <div>
-      <Grid container spacing={2}>
-        <Grid item xs={12} sm={3}> {/* Ocupa 3/12 da largura em telas pequenas e maiores */}
-          <Aceitos />
-        </Grid>
-        <Grid item xs={12} sm={3}>
-          <Producao />
-        </Grid>
-        <Grid item xs={12} sm={3}>
-          <Prontos />
-        </Grid>
-        <Grid item xs={12} sm={3}>
-          <Entregues />
-        </Grid>
-      </Grid>
-    </div>
+        <div style={{ width: '70rem'}}>
+            <Grid container spacing={1}>
+                <Grid item xs={12} sm={3}> {/* Ocupa 3/12 da largura em telas pequenas e maiores */}
+                <Aceitos />
+                </Grid>
+                <Grid item xs={12} sm={3}>
+                <Producao />
+                </Grid>
+                <Grid item xs={12} sm={3}>
+                <Prontos />
+                </Grid>
+                <Grid item xs={12} sm={3}>
+                <Entregues />
+                </Grid>
+            </Grid>
+        </div>
         
     </div>
   )
