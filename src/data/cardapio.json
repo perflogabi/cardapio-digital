@@ -1,0 +1,119 @@
+[
+    {
+      "title": "Pizza Portuguesa",
+      "description": "ovo, queijo, presunto, tomate, oregano, pimentão, milho, ervilha",
+      "photo": "/assets/pizzasalgada/salgada1.jpg",
+      "size": 400,
+      "serving": 2,
+      "price": 73.0,
+      "id": 1,
+      "category": {
+        "id": 1,
+        "label": "Salgadas"
+      }
+    },
+    {
+      "title": "Pizza de Frango",
+      "description": "frango, queijo, presunto, tomate, ovo",
+      "photo": "/assets/pizzasalgada/salgada2.jpg",
+      "size": 400,
+      "serving": 2,
+      "price": 54.0,
+      "id": 2,
+      "category": {
+        "id": 1,
+        "label": "Salgadas"
+      }
+    },
+    {
+      "title": "Pizza à moda",
+      "description": "frango, carne, queijo, presunto, ovo, maionese",
+      "photo": "/assets/pizzasalgada/salgada1.jpg",
+      "size": 350,
+      "serving": 1,
+      "price": 58.0,
+      "id": 3,
+      "category": {
+        "id": 1,
+        "label": "Salgadas"
+      }
+    },
+    {
+      "title": "Pizza Morango",
+      "description": "Morango e geleia",
+      "photo": "/assets/pizzadoce/pdoce.jpg",
+      "size": 450,
+      "serving": 1,
+      "price": 42.0,
+      "id": 4,
+      "category": {
+        "id": 2,
+        "label": "Doce"
+      }
+    },
+    {
+      "title": "Pizza de Brigadeiro",
+      "description": "Brigadeiro",
+      "photo": "/assets/pizzadoce/pdoce.jpg",
+      "size": 550,
+      "serving": 2,
+      "price": 86.0,
+      "id": 5,
+      "category": {
+        "id": 2,
+        "label": "Doce"
+      }
+    },
+    {
+      "title": "Pizza Sorvete de Morango",
+      "description": "Sorvete de morango",
+      "photo": "/assets/pizzadoce/pdoce.jpg",
+      "size": 850,
+      "serving": 3,
+      "price": 123.0,
+      "id": 6,
+      "category": {
+        "id": 2,
+        "label": "Doce"
+      }
+    },
+    {
+      "title": "Suco de Laranja",
+      "description": "Suco natural de laranja",
+      "photo": "/assets/bebidas/suco1.jpg",
+      "size": 350,
+      "serving": 1,
+      "price": 45.0,
+      "id": 7,
+      "category": {
+        "id": 3,
+        "label": "Bebidas"
+      }
+    },
+    {
+      "title": "Suco de Morango",
+      "description": "Suco natural de morango",
+      "photo": "/assets/bebidas/suco2.jpg",
+      "size": 350,
+      "serving": 1,
+      "price": 37.0,
+      "id": 8,
+      "category": {
+        "id": 3,
+        "label": "Bebidas"
+      }
+    },
+    {
+      "title": "Suco Lamoneto",
+      "description": "polpa de laranja e morango",
+      "photo": "/assets/bebidas/suco1.jpg",
+      "size": 740,
+      "serving": 3,
+      "price": 120.0,
+      "id": 9,
+      "category": {
+        "id": 3,
+        "label": "Bebidas"
+      }
+    }
+  ]
