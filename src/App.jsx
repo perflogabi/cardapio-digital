@@ -1,6 +1,6 @@
 import {Home} from './pages/home/Home'
 import {Pedidos} from './pages/pedidos/Pedidos'
-import {Cardapio} from './pages/cardapio/Cardapio'
+import Cardapio from './pages/cardapio/Cardapio'
 import {Relatorios} from './pages/relatorios/Relatorios'
 import {PedidosQrCode} from './pages/pedidosqrcode/PedidosQrCode'
 import {Entregadores} from './pages/entregadores/Entregadores'
